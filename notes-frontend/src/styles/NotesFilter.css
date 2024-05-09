@@ -1,0 +1,25 @@
+.notes-filter-container {
+  position: absolute;
+  z-index: 998;
+  top: 8px;
+}
+
+.category-filter {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.category-filter span {
+  font-size: 12px;
+}
+
+.category-filter select {
+  outline: none;
+  border: none;
+  background-color: #324f54;
+  color: white;
+  font-size: 12px;
+  border-radius: 2px;
+  cursor: pointer;
+}

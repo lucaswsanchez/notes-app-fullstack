@@ -1,0 +1,52 @@
+.note-manager-container h2 {
+  text-align: center;
+  padding-bottom: 10px;
+  color: #324f54;
+}
+
+.note-manager-container form {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 12px;
+  gap: 25px;
+}
+
+.note-manager-container form input {
+  border: none;
+  outline: none;
+  background-color: #e4eadd;
+  border-bottom: 1px solid #324f54;
+  font-size: 14px;
+}
+
+.note-manager-container form textarea {
+  height: 20px;
+  min-height: 20px;
+  max-height: 300px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  resize: vertical;
+  background-color: #e4eadd;
+  border-bottom: 1px solid #324f54;
+}
+
+.note-manager-container form select {
+  border: none;
+  outline: none;
+  background-color: #e4eadd;
+  border-bottom: 1px solid #324f54;
+  color: #676767;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.note-manager-container form button {
+  background-color: #324f54;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 2px;
+  font-size: 15px;
+  cursor: pointer;
+}
