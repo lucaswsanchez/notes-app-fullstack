@@ -97,7 +97,7 @@ function Notes() {
               <span className="note-title">{note.title}</span>
               <span className="note-content">{note.content}</span>
               <span className="note-category">
-                Categoria: {note.category.name}
+                Category: <strong>{note.category.name}</strong>
               </span>
               <button onClick={() => handleDeleteNote(note.id)}>
                 <IoCloseSharp color="#fefffa" size={16} />
