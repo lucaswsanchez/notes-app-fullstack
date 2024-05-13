@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "https://notes-app-fullstack-production.up.railway.app/";
+const API_BASE_URL = "https://notes-app-fullstack-production.up.railway.app";
 
 const apiService = {
   getAllNotes: async () => {
